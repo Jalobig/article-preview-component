@@ -1,0 +1,52 @@
+.article {
+  padding: 1rem 2.3rem;
+
+  &__heading {
+    font-size: 1.25rem;
+    color: var(--color-grey-darker);
+    @media only screen and (max-width:700px) {
+        font-size: 1rem;
+    }
+  }
+  &__text {
+    font-size: 0.8125rem;
+    line-height: 1.5;
+    color: var(--color-grey-dark);
+    margin-bottom: 1.5rem;
+    @media only screen and (max-width:700px) {
+        font-size: .84rem;
+    }
+  }
+  &__group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    @media only screen and (max-width: 850px) {
+        margin-bottom: 0;
+    }
+  }
+  &__subgroup {
+    display: flex;
+  }
+  &__img {
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+  }
+  &__column {
+    display: flex;
+    flex-direction: column;
+    h5 {
+      margin: 0;
+      color: var(--color-grey-darker);
+      
+    }
+    p {
+      margin: 0.2rem 0 0 0;
+      font-size: 0.8125rem;
+      color: var(--color-grey);
+    }
+  }
+}

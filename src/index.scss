@@ -1,0 +1,12 @@
+:root {
+  // // Colors
+  --color-grey-darker: hsl(217, 19%, 35%);
+  --color-grey-dark: hsl(214, 17%, 51%);
+  --color-grey: hsl(212, 23%, 69%);
+  --color-grey-light: hsl(210, 46%, 95%);
+}
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  background-color: var(--color-grey-light);
+}
